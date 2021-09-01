@@ -1,7 +1,7 @@
 # Fill HB Timesheeter from Jira CSV
  
-- Stáhnout z Jiry CSV výkazů a uložit zde pod libovolným názvem jako `.json`.
-- Obsahem souboru musý být Array objektů, viz: 
+- Stáhnout z Jiry Excel výkazů (Aplikace v Menu -> Clockwork Free -> První ikona v řádku s "Days, HH:MM, Add Worklog" pro stažení -> Worklogs)
+- V Excelu soubor "Uložit jako" CSV v UTF-8 a trochu pozměnit názvy fieldů (obsah JSONU musí být Array objektů), viz.
 ```
 [
     {
