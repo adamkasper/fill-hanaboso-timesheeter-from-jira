@@ -47,8 +47,7 @@ function createRequestData({
 function submitRequest(records) {
     records.forEach(async (record) => {
         try {
-            // await AXIOS_INSTANCE.post('add', createRequestData(record))
-            console.log(createRequestData(record))
+            await AXIOS_INSTANCE.post('add', createRequestData(record))
         } catch (error) {
             console.error(error.response?.data);
         }
