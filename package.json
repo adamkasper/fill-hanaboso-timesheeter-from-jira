@@ -1,0 +1,17 @@
+{
+  "name": "ts_from_jira",
+  "version": "1.0.0",
+  "description": "import jira timesheeter to hanaboso timesheeter",
+  "main": "add.js",
+  "author": "Adam Kasper",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dateformat": "^4.5.1",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node --trace-warnings --experimental-json-modules add.js"
+  }
+}
