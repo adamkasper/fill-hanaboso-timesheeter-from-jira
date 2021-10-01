@@ -6,7 +6,7 @@ import dateFormat from "dateformat";
 dotenv.config()
 
 const HANABOSO_PROJECT = process.env.HANABOSO_PROJECT
-const HANABOSO_HOMEOFFICE = process.env.HANABOSO_HOMEOFFICE
+const HANABOSO_HOMEOFFICE = Boolean(process.env.HANABOSO_HOMEOFFICE)
 const JIRA_TS_FILENAME = process.env.JIRA_TS_FILENAME
 const JIRA_TS_FILETYPE = 'utf8'
 const AXIOS_INSTANCE = axios.create({
